@@ -1,0 +1,66 @@
+@charset "UTF-8";
+body{
+    background:linear-gradient(to bottom, #49a09d,
+    #5f2c82 );
+    overflow: scroll;
+}
+
+@media screen  and (min-width:768px) and (max-width:992px) {
+    
+    
+
+section#login{
+     height: 300px;
+    width: 500px;
+    float: right;
+}
+section#login>div#imagem{
+    height: 200px; 
+    float: left;
+    height: 100%;
+    width: 40%;
+}
+
+
+}
+ 
+  @media screen  and (min-width:992px) and (max-width:1200px){
+ 
+section#login{
+    height: 400px;
+    width: 700px;
+    float: left;
+    
+
+}
+section#login>div#imagem{
+    height: 200px; 
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+
+
+  }
+
+    @media screen  and (min-width:1200px) {
+
+ 
+section#login{
+    height: 400px;
+    width: 700px;
+    float: left;
+}
+
+
+section#login>div#imagem{
+   
+    height: 250px;
+    float: right; 
+   height: 100%;
+   width: 55%;
+    
+}
+
+
+ }
