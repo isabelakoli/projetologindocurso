@@ -7,7 +7,9 @@ body{
 
 @media screen  and (min-width:768px) and (max-width:992px) {
     
-    
+   section#login>h1{
+    left:50px ;
+   } 
 
 section#login{
      height: 300px;
@@ -25,7 +27,10 @@ section#login>div#imagem{
 }
  
   @media screen  and (min-width:992px) and (max-width:1200px){
- 
+ section#login>h1{
+    right: 30%;
+   } 
+
 section#login{
     height: 400px;
     width: 700px;
@@ -44,6 +49,9 @@ section#login>div#imagem{
   }
 
     @media screen  and (min-width:1200px) {
+section#login>h1{
+    padding:right ;
+   } 
 
  
 section#login{
